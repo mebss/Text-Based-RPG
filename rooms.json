@@ -1,0 +1,50 @@
+{
+    "Forest Entrance": {
+        "description": "You stand at the entrance of a dark forest. The trees are tall and thick, their leaves whispering in the wind. A path winds deeper into the woods, but you can feel unseen eyes watching you.",
+        "items": ["map", "lantern"],
+        "connections": ["Cave", "Lake", "Old Tower"],
+        "hints": "You might want to light your way with the lantern before venturing too far."
+    },
+    "Cave": {
+        "description": "The cave is cold and damp. Water drips from the ceiling, echoing off the jagged walls. Shadows flicker and dance, making it hard to tell where the cave ends and your fear begins.",
+        "items": ["torch", "old coin", "rope"],
+        "connections": ["Forest Entrance", "Hidden Chamber"],
+        "hints": "The cave is treacherous. A torch might reveal hidden secrets."
+    },
+    "Lake": {
+        "description": "A calm lake shimmers in the moonlight. The air is cool and smells of water and moss. Fish dart beneath the surface, and a small wooden boat bobs gently at the shore.",
+        "items": ["key", "potion", "fishing rod"],
+        "connections": ["Forest Entrance", "Mystic Garden"],
+        "hints": "Maybe the fishing rod will help you catch something special."
+    },
+    "Hidden Chamber": {
+        "description": "A hidden chamber lies beyond a secret passage. Crystal formations glow softly, illuminating a grand chest in the middle of the room. Statues of ancient warriors stand guard, silent and cold.",
+        "items": ["mysterious gem", "scroll of wisdom"],
+        "connections": ["Cave"],
+        "hints": "The chest might be locked, but ancient texts might help you understand its secrets."
+    },
+    "Old Tower": {
+        "description": "An ancient tower stands tall, its stones cracked and weathered by time. Climbing ivy wraps around its base, and the air feels heavy with magic. A spiral staircase leads up to a dark room above.",
+        "items": ["sword", "shield", "rune stone"],
+        "connections": ["Forest Entrance"],
+        "hints": "The sword and shield may come in handy for battles ahead."
+    },
+    "Mystic Garden": {
+        "description": "The garden is unlike any other, bathed in a gentle glow from bioluminescent flowers. The sweet scent of unknown blossoms fills the air, and the soft hum of music seems to come from nowhere.",
+        "items": ["magic flower", "enchanted fruit", "herbal remedy"],
+        "connections": ["Lake"],
+        "hints": "Some of the plants here might heal or strengthen you."
+    },
+    "Abandoned Hut": {
+        "description": "A small wooden hut stands alone, half-buried in the forest. The roof sags under years of neglect. Inside, the air is thick with dust and the faint scent of herbs long forgotten.",
+        "items": ["rusty dagger", "leather pouch", "old journal"],
+        "connections": ["Forest Entrance"],
+        "hints": "The old journal might hold clues to the forest’s mysteries."
+    },
+    "Crystal Cavern": {
+        "description": "A cavern deep beneath the earth, filled with crystals that shimmer in every color of the rainbow. The air is warm and the light almost blinding. There’s something powerful here…",
+        "items": ["crystal shard", "energy stone", "mystic amulet"],
+        "connections": ["Cave", "Hidden Chamber"],
+        "hints": "The crystals might be more than just pretty decorations."
+    }
+}

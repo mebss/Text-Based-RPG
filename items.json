@@ -1,0 +1,100 @@
+{
+  "potion": {
+    "type": "healing",
+    "heal_amount": 3,
+    "description": "You drink the potion and feel refreshed. Your wounds begin to heal.",
+    "stackable": true,
+    "max_stack": 5
+  },
+  "magic flower": {
+    "type": "healing",
+    "heal_amount": 2,
+    "description": "The magic flower heals your wounds and lifts your spirits.",
+    "stackable": true,
+    "max_stack": 3
+  },
+  "herbal remedy": {
+    "type": "healing",
+    "heal_amount": 1,
+    "description": "A bundle of herbs with mild healing properties.",
+    "stackable": true,
+    "max_stack": 5
+  },
+  "torch": {
+    "type": "light",
+    "description": "You light the torch. Shadows retreat around you.",
+    "usable_in": ["Cave", "Crystal Cavern"],
+    "durability": 5
+  },
+  "lantern": {
+    "type": "light",
+    "description": "You light the lantern. It brightens your path in the darkness.",
+    "usable_in": ["Forest Entrance", "Old Tower", "Abandoned Hut"],
+    "durability": 8
+  },
+  "sword": {
+    "type": "weapon",
+    "damage": 2,
+    "description": "You grip the sword, feeling braver and ready for combat.",
+    "durability": 10
+  },
+  "rusty dagger": {
+    "type": "weapon",
+    "damage": 1,
+    "description": "An old dagger, still sharp enough to fend off weak enemies.",
+    "durability": 5
+  },
+  "shield": {
+    "type": "armor",
+    "defense": 1,
+    "description": "You raise the shield, feeling protected from the dangers that lurk.",
+    "durability": 8
+  },
+  "key": {
+    "type": "unlock",
+    "description": "A small key that unlocks a hidden chest or door.",
+    "usable_in": ["Hidden Chamber"]
+  },
+  "old coin": {
+    "type": "trade",
+    "value": 5,
+    "description": "An ancient coin, worn with age. It might be valuable to the right person.",
+    "stackable": true,
+    "max_stack": 20
+  },
+  "fishing rod": {
+    "type": "tool",
+    "description": "A sturdy fishing rod that might help you catch something useful at the lake.",
+    "usable_in": ["Lake"],
+    "durability": 7
+  },
+  "mysterious gem": {
+    "type": "mystical",
+    "description": "The gem glows faintly, pulsing with a strange energy. It feels important.",
+    "stackable": false
+  },
+  "crystal shard": {
+    "type": "mystical",
+    "description": "A fragment of crystal that hums with power. It might be part of a bigger secret.",
+    "stackable": false
+  },
+  "scroll of wisdom": {
+    "type": "knowledge",
+    "description": "An ancient scroll filled with cryptic knowledge. Reading it might reveal secrets.",
+    "usable_in": ["Hidden Chamber"],
+    "stackable": false
+  },
+  "leather pouch": {
+    "type": "container",
+    "capacity": 3,
+    "description": "A small leather pouch. It can carry up to 3 stackable items.",
+    "stackable": false
+  },
+  "enchanted fruit": {
+    "type": "healing",
+    "heal_amount": 2,
+    "description": "A fruit imbued with magic. Eating it restores some health.",
+    "stackable": true,
+    "max_stack": 3
+  }
+}
